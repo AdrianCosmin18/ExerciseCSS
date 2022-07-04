@@ -1,0 +1,157 @@
+body {
+  font-family: "Lora", serif;
+  /* border: 2px solid magenta; */
+  margin: 0px;
+}
+
+header {
+  border: 2px solid black;
+  margin: 0px;
+  background-color: black;
+}
+
+header p {
+  /* border: 1px solid green; */
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+
+  margin: 5px;
+
+  font-size: 15px;
+}
+
+.nume {
+  font-size: 20px;
+  margin-right: 80%;
+}
+
+aside {
+  background-image: url("/pexels-craig-adderley-1563356.jpg");
+
+  background-position: center;
+
+  background-size: cover;
+
+  height: 50%;
+
+  /* border: 2px solid red; */
+}
+
+aside img {
+  width: 200px;
+  object-fit: cover;
+  box-sizing: border-box; /* sa nu se redimensioneze cand adaug margini*/
+  border-radius: 50%;
+
+  display: block; /* ocupa toata latimea disponibila*/
+  margin: auto; /* centreaza*/
+}
+
+aside p {
+  /* border: 2px solid red; */
+  background-color: aliceblue;
+  display: block;
+  width: 165px;
+  margin: auto;
+}
+
+.salut {
+  color: black;
+  background-color: grey;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  border-radius: 7%;
+}
+
+.oras {
+  color: yellow;
+  display: block;
+  background-color: black;
+  padding: 5px;
+  font-size: 15px;
+  width: 265px;
+  border-radius: 7%;
+  margin-bottom: 5px;
+}
+
+main {
+  background-color: Cornsilk;
+  /* border: 2px solid blue; */
+  height: 100%;
+  padding: 30px;
+}
+
+main section {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 2%;
+  margin: auto;
+  display: block;
+
+  height: 250px;
+  width: 400px;
+
+  margin-bottom: 10px;
+  padding-top: 0px;
+}
+
+section h2 {
+  margin-top: 0px;
+  margin-bottom: -5%;
+  padding: 2%;
+}
+
+.section1 p {
+  padding: 2%;
+}
+
+.section2 p {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: center;
+  padding: 1%;
+  border-radius: 15%;
+}
+
+.pBlue {
+  border: 2px solid deepskyblue;
+  margin-left: 5%;
+  background-color: deepskyblue;
+}
+
+.pOrange {
+  border: 2px solid coral;
+  margin-left: 5%;
+  background-color: coral;
+}
+
+.latin {
+  margin-top: 0%;
+}
+
+footer img {
+  object-fit: cover;
+  border-radius: 50%;
+  margin: auto;
+  /* border: 1px solid red; */
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.twitter {
+  margin-left: 46%;
+}
+
+.instagram {
+  margin-left: 0%;
+}
+
+footer p {
+  display: block;
+  margin: center;
+  margin-left: 43%;
+}
